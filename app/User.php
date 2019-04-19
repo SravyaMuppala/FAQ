@@ -31,7 +31,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdatedAt($value)
  * @mixin \Eloquent
  */
-class User extends Authenticatable
+class  User extends Authenticatable
 {
     use Notifiable;
 
@@ -70,5 +70,9 @@ class User extends Authenticatable
     public function questions()
     {
         return $this->hasMany('App\Question');
+    }
+    public function answers()
+    {
+        return $this->hasMany('App\Answer');
     }
 }
