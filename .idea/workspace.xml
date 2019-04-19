@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a338bbe-6e4a-46e1-8a4b-8a2d230478ac" name="Default Changelist" comment="Created User Table Seeder.">
-      <change afterPath="$PROJECT_DIR$/database/factories/ProfileFactory.php" afterDir="false" />
+    <list default="true" id="0a338bbe-6e4a-46e1-8a4b-8a2d230478ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0b35b93-ef3b-4d61-9a7c-5f43ff0a736f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0b35b93-ef3b-4d61-9a7c-5f43ff0a736f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -450,7 +447,7 @@
       <updated>1555348255013</updated>
       <workItem from="1555348256929" duration="2347000" />
       <workItem from="1555351024729" duration="6217000" />
-      <workItem from="1555702083231" duration="4471000" />
+      <workItem from="1555702083231" duration="4979000" />
     </task>
     <task id="LOCAL-00001" summary="New Laravel Site">
       <created>1555350441028</created>
@@ -480,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555704071887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added user profile migrate, model and updated the user seeder to create profiles.">
+      <created>1555706643552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555706643552</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13035000" />
+    <option name="totallyTimeSpent" value="13543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="638" extended-state="6" />
@@ -522,7 +526,8 @@
     <MESSAGE value="Initial Laravel Setup" />
     <MESSAGE value="Removed Username from default laravel auth make." />
     <MESSAGE value="Created User Table Seeder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created User Table Seeder." />
+    <MESSAGE value="Added user profile migrate, model and updated the user seeder to create profiles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user profile migrate, model and updated the user seeder to create profiles." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35709d0d-48fb-45b3-a514-a684c76ffd35/console.sql">
