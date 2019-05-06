@@ -4,9 +4,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <a class="btn btn-secondary float-left" href="{{ url('/home/view') }}">
-                    <b>View Created Questions</b>
+                <a class="btn btn-dark float-left" href="{{ url('/home') }}">
+                    <b>Back</b>
                 </a>
+            </div>
+            <div class="container align-content-xl-between">
                 <form role="form" id="search-form" class="search-form" method="get" action="{{ url('/home/search') }}">
                     <div class="row float-lg-right">
                         <div class="form-group">
@@ -19,16 +21,16 @@
                     </div>
                 </form>
             </div>
-
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Questions
-                        <a class="btn btn-info float-right" href="{{ route('questions.create') }}">
+                    <div class="card-header">Questions Created
+
+                        <a class="btn btn-primary float-right" href="{{ route('questions.create') }}">
                             Create a Question
                         </a>
 
-                        <div class="card-body">
 
+                        <div class="card-body">
                             <div class="card-deck">
                                 @forelse($questions as $question)
                                     <div class="col-sm-4 d-flex align-items-stretch">
@@ -37,6 +39,7 @@
                                                 <small class="text-muted">
                                                     Updated: {{ $question->created_at->diffForHumans() }}
                                                     Answers: {{ $question->answers()->count() }}
+                                                    Owner: {{\App\User::find($question->user_id)->email}}
 
                                                 </small>
                                             </div>
@@ -54,17 +57,9 @@
                                         </div>
                                     </div>
                                 @empty
-                                    There are no questions to view, you can create a question.
-
+                                    There are no questions to view, you can create a create a question.
                                 @endforelse
 
-
-                            </div>
-
-                        </div>
-                        <div class="card-footer">
-                            <div class="float-right">
-                                {{ $questions->links() }}
                             </div>
                         </div>
 
@@ -72,4 +67,5 @@
                 </div>
             </div>
         </div>
+    </div>
 @endsection

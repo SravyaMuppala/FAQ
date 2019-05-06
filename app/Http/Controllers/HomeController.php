@@ -34,7 +34,11 @@ class HomeController extends Controller
         return view('home')->with('questions', $questions);
 
     }
-
+    public function viewAllQuestions()
+    {
+        $questions = Question::all();
+        return view('view')->with('questions', $questions);
+    }
 
     public function searchQuestions(Request $request)
     {
