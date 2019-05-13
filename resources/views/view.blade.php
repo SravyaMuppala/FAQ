@@ -16,7 +16,7 @@
                         </div>
                         &nbsp
                         <div>
-                            <button class="btn btn-success" type="submit" id="search-form">Search</button>
+                            <button class="btn btn-primary" type="submit" id="search-form">Search</button>
                         </div>
                     </div>
                 </form>
@@ -25,7 +25,7 @@
                 <div class="card">
                     <div class="card-header">Questions Created
 
-                        <a class="btn btn-primary float-right" href="{{ route('questions.create') }}">
+                        <a class="btn btn-success float-right" href="{{ route('questions.create') }}">
                             Create a Question
                         </a>
 
