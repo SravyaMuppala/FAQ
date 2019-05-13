@@ -1,8 +1,22 @@
-# FAQ
+### **FAQ Final Project**
 
-To run the FAQ project:
+#### Web Systems Development
 
-1. git clone https://github.com/SravyaMuppala/FAQ.git
-2. CD into FAQ and run composer install
-3. cp .env.example to .env
-4. setup database / with sqlite
+##### EPIC
+
+Added two features, one feature allows a user to search a question and 
+another feature allows a user to view questions created by other users.
+
+##### User Story
+
+As a user, I should be able to view the questions and answers posted by me, so that I can see my participation.
+
+As a user, I should be able to search for the question created by me, so that I can identify the question instantly.
+
+As a user, I should be able to view the questions and answers posted by others, so that I can search for questions I want.
+
+As a user, I should be able to search for the question created by other users as well, so that I can identify the question I want.
+
+As a user, I should be able to view the questions and answers posted by others along with their email Id, so that I can post my view of point for those questions.
+
+
